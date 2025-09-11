@@ -1,7 +1,7 @@
 // Minimal interactions for the static export.
 // Change these targets if you host under a different router.
-const NAV_HOME = "/";
-const AUTH = "/auth";
+const NAV_HOME = "./index.html";
+const AUTH = "pages/login.html";
 const DASHBOARD = "/dashboard";
 // Helpers
 function go(path) {

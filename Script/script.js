@@ -1,8 +1,8 @@
 // Minimal interactions for the static export.
 // Change these targets if you host under a different router.
 const NAV_HOME = "./index.html";
-const AUTH = "pages/login.html";
-const DASHBOARD = "/dashboard";
+const AUTH = "Pages/login.html";
+const DASHBOARD = "Pages/dashboard.html";
 // Helpers
 function go(path) {
 // If used inside the SPA, try client-side. Otherwise fallback to direct nav.

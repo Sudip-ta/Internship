@@ -10,13 +10,13 @@
   }
 
   const backBtn = document.getElementById("login-back");
-  if (backBtn) backBtn.addEventListener("click", () => go("./index.html"));
+  if (backBtn) backBtn.addEventListener("click", () => go("../index.html"));
 
   const cancelBtn = document.getElementById("login-cancel");
-  if (cancelBtn) cancelBtn.addEventListener("click", () => go("./index.html"));
+  if (cancelBtn) cancelBtn.addEventListener("click", () => go("../index.html"));
 
   const brand = document.getElementById("nav-home");
-  if (brand) brand.addEventListener("click", () => go("./index.html"));
+  if (brand) brand.addEventListener("click", () => go("../index.html"));
 
   const form = document.getElementById("login-form");
   const msg = document.getElementById("login-msg");
